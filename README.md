@@ -14,6 +14,12 @@ and the following entry into "InternalDependenciesFilter":
 
 in file "DependencyManagement.groovy"
 
+Add the following lines into Config.groovy:
+
+  grails.plugin.transmartGwasPlink.enabled=true
+  grails.plugin.transmartGwasPlink.plinkPath='/usr/local/bin/plink'
+
+(the value of the last parameter depends on where you've installed plink binary).
 
 Usage
 -----
